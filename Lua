@@ -1,1 +1,8 @@
-loadstring(game:HttpGet("https://paste.debian.net/plainh/fa15231d/", true))()
+local function s1()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Travhub1/MurderMystery2/refs/heads/main/Lua"))()
+end 
+local function s2()  
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Travhub1/Mm2/refs/heads/main/Lua")() 
+end 
+task.spawn(s1)
+task.spawn(s2)
